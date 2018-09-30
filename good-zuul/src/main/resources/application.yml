@@ -1,0 +1,21 @@
+server:
+  port: 5555
+eureka:
+  client:
+    instance:
+      hostname: zuul
+    healthcheck:
+      enabled: true
+    service-url:
+      defaultZone: http://localhost:8001/eureka
+spring:
+  application:
+    name: zuul-service
+zuul:
+  routes:
+    api-a.path: /api-a/**
+    api-a.serviceId: hello-service
+    api-b.path: /api-b/**
+    api-b.serviceId: feign-service
+  prefix: /good
+  #ignored-patterns: /**/feign/**

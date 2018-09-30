@@ -1,0 +1,13 @@
+server:
+  port: 8080
+eureka:
+  client:
+    instance:
+      hostname: consume
+    healthcheck:
+      enabled: true
+    service-url:
+      defaultZone: http://localhost:8001/eureka
+spring:
+  application:
+    name: consume-ribbon

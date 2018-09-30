@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/good-client/good-client.iml" filepath="$PROJECT_DIR$/good-client/good-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/good-config/good-config.iml" filepath="$PROJECT_DIR$/good-config/good-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/good-consume/good-consume.iml" filepath="$PROJECT_DIR$/good-consume/good-consume.iml" />
+      <module fileurl="file://$PROJECT_DIR$/good-eureka/good-eureka.iml" filepath="$PROJECT_DIR$/good-eureka/good-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/good-feign/good-feign.iml" filepath="$PROJECT_DIR$/good-feign/good-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/good-zuul/good-zuul.iml" filepath="$PROJECT_DIR$/good-zuul/good-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/goodcloud.iml" filepath="$PROJECT_DIR$/goodcloud.iml" />
+    </modules>
+  </component>
+</project>

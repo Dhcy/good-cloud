@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="good-client" />
+        <module name="good-config" />
+        <module name="good-consume" />
+        <module name="good-eureka" />
+        <module name="good-feign" />
+        <module name="good-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="good-client" target="1.8" />
+      <module name="good-config" target="1.8" />
+      <module name="good-consume" target="1.8" />
+      <module name="good-eureka" target="1.8" />
+      <module name="good-feign" target="1.8" />
+      <module name="good-zuul" target="1.8" />
+      <module name="goodcloud" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

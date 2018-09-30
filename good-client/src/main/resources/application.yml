@@ -1,0 +1,20 @@
+server:
+  port: 8082
+eureka:
+  client:
+    instance:
+      hostname: client
+    healthcheck:
+      enabled: true
+    service-url:
+      defaultZone: http://localhost:8001/eureka
+spring:
+  application:
+    name: hello-service
+hello-service:
+  ribbon:
+    ConnectTimeout: 500
+    ReadTimeout: 1000
+    OkToRetryOnAllOperations: true
+    MaxAutoRetriesNextServer: 2
+    MaxAutoRetries: 1
